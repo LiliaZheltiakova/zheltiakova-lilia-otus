@@ -1,4 +1,5 @@
 Definition
+
 A Turing Machine (TM) is a mathematical model which consists of an infinite length tape divided into cells on which input is given. It consists of a head which reads the input tape. A state register stores the state of the Turing machine. After reading an input symbol, it is replaced with another symbol, its internal state is changed, and it moves from one cell to the right or left. If the TM reaches the final state, the input string is accepted, otherwise rejected.
 
 A TM can be formally described as a 7-tuple (Q, X, ∑, δ, q0, B, F) where −
@@ -19,6 +20,7 @@ F is the set of final states
 
 
 Example of Turing machine
+
 Turing machine M = (Q, X, ∑, δ, q0, B, F) with
 
 Q = {q0, q1, q2, qf}
